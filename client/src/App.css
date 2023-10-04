@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+.auth-block{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.left-box{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.right-box{
+  width: 65%;
+  background: #1a1a1a;
+  border-radius: 15px 15px 0 0;
+}
+.dialog-window::-webkit-scrollbar-thumb{
+  background-color: #555662;
+  border-radius: 9em;
+}
+.dialog-window::-webkit-scrollbar {
+  background-color: #2B2C31;
+  border-radius: 5px;
+  width: 0.7vw;
+}
+.dialog-window{
+  height: 60vh;
+  padding: 1em 0.5em;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.dialog-window p{
+  margin: 0.5em 0;
+}
+.my-message{
+  float: right;
+}
+.other-message{
+  float: left;
+}
+.write-message{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5em;
+  background: #3a3a3a;
+}
+.write-message input{
+  width: 80%;
+  font-size: 17px;
+  padding: 0.4em 1em;
+  margin-right: 0.5em;
+  outline: 0;
+  border: 0;
+  border-radius: 15px;
+  background: #1a1a1a;
+}
+.nav{
+  display: flex;
+  justify-content: start;
+  margin-bottom: 2em;
+}
+.nav a{
+  font-size: 18px;
+  margin: 0 1em;
+  background: #2B2C31;
+  padding: 0.5em 1em;
+  border-radius: 15px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.input{
+  transition: border 0.4s;
+  padding: 0.4em 1em;
+  outline: 0;
+  border: 1px solid #1a1a1a;
+  background: #1a1a1a;
+  border-radius: 15px;
+  margin: 0.5em 0;
+}
+.input:focus,.input:hover,.input:active{
+  border: 1px solid #4f4f4f;
+}
+.button{
+  margin: 0.5em 0;
+}
